@@ -1,5 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "$schema": "node_modules/bootstrap/dist/css/bootstrap.min.css",
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
@@ -27,6 +28,7 @@
               }
             ],
             "styles": [
+              "@angular/material/prebuilt-themes/azure-blue.css",
               "src/styles.css"
             ],
             "scripts": [],
@@ -90,6 +92,7 @@
               }
             ],
             "styles": [
+              "@angular/material/prebuilt-themes/azure-blue.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -97,5 +100,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "30bc3d1c-1985-45fe-a925-0f0adedc68a2"
   }
 }
